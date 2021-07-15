@@ -155,7 +155,7 @@ public class SetupIntegrationTest extends AbstractSdkIntegrationTest {
         assertFilePresent(serverId + File.separator + "modules");
         assertModulesInstalled(serverId, "owa-1.4.omod", "uicommons-1.7.omod", "uiframework-3.6.omod");
         assertFilePresent(serverId + File.separator + "frontend");
-        assertFilePresent(serverId + File.separator + "frontend" + File.separator + "index.html");
+        //assertFilePresent(serverId + File.separator + "frontend" + File.separator + "index.html");
         assertFilePresent(serverId + File.separator + "frontend" + File.separator + "importmap.json");
         assertFilePresent(serverId + File.separator + "frontend" + File.separator + "openmrs-esm-login-app-3.1.0");
         assertFilePresent(serverId + File.separator + "frontend" + File.separator + "openmrs-esm-patient-chart-app-3.0.0");
